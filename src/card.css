@@ -1,0 +1,94 @@
+.bottomHalf{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 44vh;
+    background-image: linear-gradient(to right,#fbfbfb , #f4ffd2b7);
+}
+
+.cards1{
+    margin-top: 1vh;
+    display: grid;
+    /* column-gap: 2vw; */
+    grid-template-columns: 20vw 20vw 20vw;
+    column-gap: 2vw;
+    
+   
+    
+}
+
+.cards2{
+    margin-top: 1vh;
+    display: grid;
+    grid-template-columns: 20vw 20vw;
+    column-gap: 2vw;
+    
+}
+
+.task-offers{
+    display: flex;
+    height: 15vh;
+    border-radius: 0.5vw;
+    background-image: linear-gradient(90deg, #fbfbfb , 80%, rgb(153, 218, 250));
+    color: #6100ad;
+    font-size: 1vw;
+    border:0.1vw solid black;
+    text-align: center;
+  
+    
+    
+}
+
+.buzz-offers{
+    display: flex;
+    height: 15vh;
+    border-radius: 0.5vw;
+    background-image: linear-gradient(90deg, #fbfbfb , 80%, rgb(77, 255, 92));
+    color: #6100ad;
+    font-size: 1vw;
+    border:0.1vw solid black;
+    text-align: center;
+}
+
+.limited-offers{
+    display: flex;
+    height: 15vh;
+    border-radius: 0.5vw;
+    background-image: linear-gradient(90deg, #fbfbfb , 80%, rgb(255, 80, 80));
+    color: #6100ad;
+    font-size: 1vw;
+    border:0.1vw solid black;
+    text-align: center;
+}
+
+.adscend-offers{
+    display: flex;
+    height: 15vh;
+    border-radius: 0.5vw;
+    background-image: linear-gradient(90deg, #fbfbfb , 80%, rgb(250, 176, 64));
+    color: #6100ad;
+    font-size: 1vw;
+    border:0.1vw solid black;
+    text-align: center;
+}
+
+.adgate-offers{
+    display: flex;
+    height: 15vh;
+    border-radius: 0.5vw;
+    background-image: linear-gradient(90deg, #fbfbfb , 80%, rgb(15, 172, 251));
+    color: #6100ad;
+    font-size: 1vw;
+    border:0.01vw solid black;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    transform:scale(1.2) ;
+}

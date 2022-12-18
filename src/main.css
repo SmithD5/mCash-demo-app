@@ -1,0 +1,179 @@
+.slides{
+    display: flex;
+    flex-direction: row;
+    width: 300vw;
+   
+    
+
+}
+
+main{
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+
+.daily-reward{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    background-image: linear-gradient(to right,#6100ad , #c193e6);
+    width:50vw;
+    height:40vh;
+    margin-left: 25vw;
+    border-radius: 20px;
+    border: 0.1vh solid #6100ad;
+ 
+}
+.daily-reward-title{
+    display:flex;
+    padding-top:2vh;
+    color: aliceblue;
+    font-size: 4vw;
+}
+.daily-reward-info-image-button{
+    display: flex;
+}
+.daily-reward-info-button span{
+    padding-top: 2vh;
+    color: aliceblue;
+}
+.gift-icon{
+    width:15vw;
+}
+
+.daily-reward-info-button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    
+}
+
+.daily-reward-info-button Button{
+    margin-top: 5vh;
+    border-radius: 2vh;
+    color: aliceblue; 
+    font-size: 1vw;
+    background-color: #c193e6;
+}
+
+.daily-reward:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* spinwheel */
+.spin-and-win{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    background-image: linear-gradient(to right,#6100ad , #c193e6);
+    width:50vw;
+    height:40vh;
+    margin-left: 25vw;
+    border-radius: 20px;
+    
+    border: 0.1vh solid #6100ad;
+
+}
+.spin-and-win-title{
+    display:flex;
+    padding-top:2vh;
+    color: aliceblue;
+    font-size: 4vw;
+}
+.spin-and-win-info-image-button{
+    display: flex;
+}
+.spin-and-win-info-button span{
+    padding-top: 2vh;
+    color: aliceblue;
+}
+.spinwheel-icon{
+    width:9vw;
+}
+
+.spin-and-win-info-button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    
+}
+
+.spin-and-win-info-button Button{
+    margin-top: 5vh;
+    border-radius: 2vh;
+    color: aliceblue; 
+    font-size: 1vw;
+    background-color: #c193e6;
+}
+
+.spin-and-win:hover{
+    transform: scale(1.2);
+}
+
+
+/* challenges */
+.challenges{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    background-image: linear-gradient(to right,#6100ad , #c193e6);
+    width:50vw;
+    height:40vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    border-radius: 20px;
+    border: 0.1vh solid #6100ad;
+ 
+}
+.challenges-title{
+    display:flex;
+    padding-top:2vh;
+    color: aliceblue;
+    font-size: 4vw;
+}
+.challenges-info-image-button{
+    display: flex;
+}
+.challenges-info-button span{
+    padding-top: 2vh;
+    color: aliceblue;
+}
+.challenges-icon{
+    width:9vw;
+}
+
+.challenges-info-button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    
+}
+
+.challenges-info-button Button{
+    margin-top: 5vh;
+    border-radius: 2vh;
+    color: aliceblue; 
+    font-size: 1vw;
+    background-color: #c193e6;
+}
+
+.challenges:hover{
+    transform: scale(1.2);
+}
+
+
+
